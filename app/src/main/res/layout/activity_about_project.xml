@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutProjectActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/emblem_for_about"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/flag_usa"/>
+</LinearLayout>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="#1baded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Приложение разработано для содействия Правительству Кыргызской Республики"
+        android:id="@+id/textView" />
+
+</LinearLayout>

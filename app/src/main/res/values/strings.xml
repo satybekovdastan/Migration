@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Справочник мигранта</string>
+    <string name="reg_name">Вам нужно зарегистрироваться чтобы писать на форуме</string>
+    <string name="my_text">This is an <u>underline</u>.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
